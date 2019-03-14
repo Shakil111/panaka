@@ -1,0 +1,303 @@
+/*Athor Info
+
+Name:Hr.nusrat
+Email:hr.nusrat@gmail.com*/
+
+
+/*
+
+
+=========index======
+
+1.Global css
+2.header section
+3.hero section
+4.Facilisis-sec
+5.Antedonec-sec
+6.Blanditrhoncus-sec
+7.Placerat-sec
+8.foot-sec
+
+=====================
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700');
+section{
+	padding: 50px 0px;}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
+body{
+ font-family: roboto-slab;
+}
+.no-padding{
+	padding:0px;
+}
+/*header section*/
+
+.bg-dark {
+    background-color: #edeff1!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    margin-left: 35px;
+    margin-top: 31px;
+    margin-bottom: 28px;
+    color:#31353e;
+}
+.navbar-dark .navbar-nav .active>.nav-link,
+ .navbar-dark .navbar-nav .nav-link.active, 
+ .navbar-dark .navbar-nav .nav-link.show,
+  .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+    background-color: #dd4b2b;
+    border-radius: 40px;
+}
+
+
+
+
+
+.hero{
+	background:url(../img/bg1.png)no-repeat;
+	background-size: cover;
+}
+.hero-title{
+    padding-top: 400px;
+    padding-left: 162px;
+}
+.hero-title p {
+    font-size: 25px;
+    color: #ffffff;
+    padding-left: 220px;
+    padding-top: 22px;
+}
+.hero-title h2 {
+    font-size: 72px;
+    color: #ffffff;
+}
+.hero-img1{
+	 padding-top: 130px;
+    padding-right: 76px;
+    text-align: center;
+}
+.hero-img1 h4{
+   font-size: 30px;
+   padding-right:9px;
+   padding-top: 20px;
+   color: #ffffff;
+   font-family: Roboto-slab;
+}
+.hero-img1 p{
+    color: #ffffff;
+    font-family: Roboto-slab;
+    padding-bottom: 70px;
+}
+.hero-img2{
+    padding-top: 130px;
+    padding-right: 76px;
+    text-align: center;
+}
+.hero-img2{
+    padding-top: 130px;
+    padding-right: 76px;
+    text-align: center;
+}
+
+.hero-img2 h4{
+    font-size: 30px;
+    padding-left: 18px;
+    padding-top: 20px;
+    color: #ffffff;
+     font-family: Roboto-slab;
+}
+.hero-img2 p{
+    color: #ffffff;
+    font-family: Roboto-slab;
+    padding-bottom: 70px;
+}
+.btn-custom{
+	background-color: #ffffff;
+    margin-left: 435px;
+    padding: 14px 60px 14px 60px;
+    margin-bottom: 150px;
+    border-radius: 31px;
+}
+
+
+
+.Our-news {
+    background-color: #edeff1;
+}
+.news-head{
+
+}
+.news-head h2{
+padding-left: 492px;
+    padding-top: 52px;
+    color: #31353e;
+}
+.news{
+margin-right: 6px;
+    text-align: center;
+}
+.news h2{
+padding-left: 106px;
+    font-size: 21px;
+    padding-top: 23px;
+}
+.news img{
+padding-top: 36px;
+}
+.news p{
+padding-left: 103px;
+    padding-top: 2px;
+    font-size: 10px;
+}
+.btn-2{
+    margin-top: 22px;
+    margin-left: 114px;
+    color: #5a5d64;
+    background-color: #ffffff;
+    padding: 10px 32px 10px 32px;
+    border-radius: 29px;
+    margin-bottom: 40px;
+
+}
+
+
+
+.newslist{
+	background: url(../img/Footer.png)no-repeat;
+	background-size: cover;
+}
+
+.newslist-1 {
+    text-align: center;
+}
+
+.newslist-1 p{
+    color: #ffffff;
+    padding-bottom: 32px;
+}
+.newslist-1 h2{
+padding-top: 122px;
+    color: #ffffff;
+}
+.form-control{
+	    padding: 26px;
+    border-radius: 39px;
+    color: #f5f5f447;
+    background-color: #ffffff52;
+    margin-bottom: 87px;
+}
+input.sign-btn {
+    padding: 15px;
+    width: 216px;
+    border-radius: 40px;
+    border: 1px solid #f7f5f5;
+    position: absolute;
+    bottom: 85px;
+    right: 15px;
+    color: #743434;
+    background-color: #fff;
+}
+
+
+
+
+
+.Blanditrhoncus-sec{
+	color: #272836;
+	padding: 56px;
+
+}
+
+.Blanditrhoncus-pera .btn-1{
+	background: #dd4b2b;
+ 	color:#fff;
+ 	padding: 5px 50px;
+ 	margin: 5px auto;
+ 	border-radius: 25px;
+
+
+}
+
+
+.Blanditrhoncus-pera .btn-2{
+	background: #4b4e73;
+ 	color:#fff;
+ 	padding: 5px 50px;
+ 	margin: 5px auto;
+ 	border-radius: 25px;
+ }
+
+/*Blanditrhoncus-sec end*/
+
+/*Placerat-sec*/
+
+ .Placerat-sec{
+ 	background-color: #d75d0e;
+ 	color: #fff;
+
+}
+ .Placerat-rat{
+ 	padding: 10px 20px;
+ 	text-align: center;
+
+ }
+  .Placerat-rat ul {
+  	list-style: none;
+  }
+/*Placerat-sec*/
+
+ /*foot-sec*/
+
+
+ .foot-sec{
+ 	background: url(../img/Footer.png);
+ 	background-size: cover;
+ 	color: #fff;
+ 	text-align: center;
+ 	padding: 56px;
+ }
+ .foot-sec p{
+ 	margin-top: 20px;
+ 	padding-bottom: 40px;
+ }
+
+ /*foot-sec end*/
+
+
+ @media(min-width: 0px) and(max-width: 500px){
+ 	    .sign-btn{ top: 135px;
+    				right: 88px;}
+ 
+ }
+
+ @media(min-width: 501px) and(max-width: 767px){
+ 
+ }
+
+ @media(min-width: 768px) and(max-width: 1199px){
+ 
+ }
+
+ @media(min-width: 1200px){
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
